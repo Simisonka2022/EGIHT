@@ -13,40 +13,17 @@ echo "======================================"
 echo "Rendben beléphet"
 sleep 3
 clear
-spinner=( Ooooo oOooo ooOoo oooOo ooooO oooOo ooOoo oOooo);
- 
-cat << EOF
-Loading
-EOF
- 
- 
-count(){
-  spin &
-  pid=$!
- 
-  for i in `seq 1 10`
-  do
-    sleep 1;
-  done
- 
-  kill $pid  
-}
- 
-spin(){
-  while [ 1 ]
-  do 
-    for i in ${spinner[@]}; 
-    do 
-      echo -ne "\r$i";
-      sleep 0.2;
-    done;
-  done
-}
- 
-count
+
 clear
 
-
+echo "  ______ _____ _____ _    _ _______ 
+ |  ____/ ____|_   _| |  | |__   __|
+ | |__ | |  __  | | | |__| |  | |   
+ |  __|| | |_ | | | |  __  |  | |   
+ | |___| |__| |_| |_| |  | |  | |   
+ |______\_____|_____|_|  |_|  |_|   
+                                    
+                                    "
 
 sleep 1
 echo "Vége van $name"
