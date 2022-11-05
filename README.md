@@ -17,3 +17,20 @@ Is avalibe in Termux!
     cd EGIHT
     ls
     python2 EGIHT.py
+If it doesn't work, try this too!
+
+    apt-get update -y
+    apt-get upgrade -y
+    pkg install python -y
+    pkg install python2 -y
+    pkg install git -y
+    pip install webbrowser
+    pip install time
+    from colorama import Fore
+    from pystyle import Colors, Colorate  
+    git clone https://github.com/Simisonka2022/EGIHT.git
+    cd $HOME
+    ls
+    cd EGIHT
+    ls
+    python EGIHT.py
