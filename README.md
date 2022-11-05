@@ -11,7 +11,7 @@ Is avalibe in Termux!
     pip install time
     from colorama import Fore
     from pystyle import Colors, Colorate  
-    https://github.com/Simisonka2022/EGIHT.git
+    git clone https://github.com/Simisonka2022/EGIHT.git
     cd $HOME
     ls
     cd EGIHT
