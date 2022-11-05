@@ -1,8 +1,16 @@
 # Install
 Is avalibe in Termux!
-* `apt-get update`
-* `apt-get install git`
-* `git clone https://github.com/Simisonka2022/EGIHT.git` 
-* `cd EGIHT`
-* `chmod +x EGIHT.sh`
-* `./EGIHT.sh`
+
+
+    apt-get update -y
+    apt-get upgrade -y
+    pkg install python -y
+    pkg install python2 -y
+    pkg install git -y
+    pip install lolcat
+    git clone https://github.com/noob-hackers/lazybee
+    cd $HOME
+    ls
+    cd lazybee
+    ls
+    python2 lazybee.py
