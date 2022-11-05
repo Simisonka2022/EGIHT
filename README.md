@@ -7,10 +7,13 @@ Is avalibe in Termux!
     pkg install python -y
     pkg install python2 -y
     pkg install git -y
-    pip install lolcat
-    git clone https://github.com/noob-hackers/lazybee
+    pip install webbrowser
+    pip install time
+    from colorama import Fore
+    from pystyle import Colors, Colorate  
+    https://github.com/Simisonka2022/EGIHT.git
     cd $HOME
     ls
-    cd lazybee
+    cd EGIHT
     ls
-    python2 lazybee.py
+    python2 EGIHT.py
